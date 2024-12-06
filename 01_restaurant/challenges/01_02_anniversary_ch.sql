@@ -5,3 +5,17 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+--over thought MY ANSWER WOWOWOW
+-- CREATE TABLE CustomerResponses (
+--   'id' INT NOT NULL AUTO_INCREMENT,
+--   'customer_id' INT NOT NULL, 
+--   'customer_reponse' VARCHAR(255) NOT NULL,
+--   PRIMARY KEY ('id'), 
+--   FOREIGN KEY ('customer_id') REFERENCES 'Customers' ('id')
+--   );
+--WOWOWOWO
+--correct anwer
+CREATE TABLE AnniversaryAttendees (
+  CustomerID INTEGER,
+  PartySize INTEGER
+);
